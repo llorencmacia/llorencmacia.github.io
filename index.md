@@ -1,1 +1,904 @@
+<!DOCTYPE html>
+	<html lang="en">
+	   
+	   <head>
+	      <meta charset="utf-8">
+	      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	      <meta name="description" content="">
+	      <meta name="author" content="">
+	      <title>Silveira, T. L. T. Website</title>
+	      <!-- Bootstrap core CSS -->
+	      <link href="resources/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	      <!-- Custom styles for this template -->
+	      <link href="resources/css/style.css" rel="stylesheet">
 
+	      <link rel="shortcut icon" href="resources/assets/img/favicon-ufrgs.ico" />
+	     
+	      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	      <link rel="stylesheet" href="resources/academicons/css/academicons.css" />
+	      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	      <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+		    <!-- Global site tag (gtag.js) - Google Analytics -->
+		  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131910156-1"></script>
+		  <script>
+		      window.dataLayer = window.dataLayer || [];
+
+		      function gtag() {
+		          dataLayer.push(arguments);
+		      }
+		      gtag('js', new Date());
+
+		      gtag('config', 'UA-131910156-1');
+		  </script>
+	   </head>
+
+	   <body id="page-top">
+	      <!-- Navigation -->
+	      <nav class="navbar navbar-expand-sm bg-white navbar-light fixed-top" id="mainNav">
+	         <div class="container">
+	            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+	            <span class="navbar-toggler-icon"></span>
+	            </button>
+	            <div class="collapse navbar-collapse" id="navbarResponsive">
+	               <ul class="navbar-nav mx-auto">
+	                  <li class="nav-item">
+	                     <a class="nav-link js-scroll-trigger" href="#about">About</a>
+	                  </li>
+	                  <li class="nav-item">
+	                     <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+	                  </li>
+	                  <li class="nav-item">
+	                     <a class="nav-link js-scroll-trigger" href="#teaching">Teaching</a>
+	                  </li>
+	                  <li class="nav-item">
+	                  	<a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
+	                  </li>
+	                  <li class="nav-item">
+	                     <a class="nav-link js-scroll-trigger" href="#publications">Publications</a>
+	                  </li>
+	                  <li class="nav-item">
+	                     <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+	                  </li>
+	               </ul>
+	            </div>
+	         </div>
+	      </nav>
+	      <header>
+	         <div class="container text-center">
+	            <img src="resources/profile.jpeg" alt="This is me in Long Beach" class="mt-1 rounded-circle" style="width:150px;">
+	            <span><h4 class="text-white">._.</h4></span>
+	            <p class="lead"><i>myself in a nutshell: a passionate scientist.</i></p>
+	         </div>
+	      </header>
+	      <section id="about" class="bg-white">
+	         <div class="container">
+	            <div class="row">
+	               <div class="col-lg-8 mx-auto">
+	                  <h3>About me</h3>
+	                  <p class="text-justify" style="padding-top: 20px;">
+	                  	Thiago Lopes Trugillo da Silveira is an Assistant Professor at the <a target="_blank" href="https://www.ufrgs.br/"> Federal University of Rio Grande do Sul (UFRGS)</a>, Brazil. He holds a D.Sc. degree in Computer Science (2019) from UFRGS, an M.Sc. degree in Computer Science (2016), and B.Sc. degrees in Information Systems (2015) and Computer Science (2013) from the <a target="_blank" href="http://www.ufsm.br">Federal University of Santa Maria (UFSM)</a>, Brazil. <!--Thiago was the Featured Student in Computer Science (2013/2), recognized by the <a target="_blank" href="https://www.sbc.org.br">Brazilian Computer Society (SBC)</a>, and received the Odelar Leite Linhares Award of the Best Master Thesis (2016) granted by the <a target="_blank" href="https://www.sbmac.org.br/">Brazilian Society of Computational and Applied Mathematics (SBMAC)</a>.--> His current interests include pattern recognition, computer vision, and signal and image processing.
+	                  </p>
+	               </div>
+	            </div>
+	         </div>
+	      </section>
+	      <section id="education" class="bg-white" style="margin-bottom:20px;">
+	         <div class="container">
+	            <div class="row">
+	               <div class="col-lg-8 mx-auto">
+	                  <h3>Education</h3>
+
+	                  <h5>Doctorate in Computer Science</h5>
+	                  <dl class="row">
+	                     <dt class="col-sm-3">Period:</dt>
+	                     <dd class="col-sm-9">2016 - 2019</dd>
+	                     <dt class="col-sm-3">University:</dt>
+	                     <dd class="col-sm-9">
+	                        <a target="_blank" href="http://www.ufrgs.br">Federal University of Rio Grande do Sul</a>
+	                     </dd>
+	                     <dt class="col-sm-3">Dissertation:</dt>
+	                     <dd class="col-sm-9">
+	                        <p  class="text-justify">
+	                        	<em>Dense 3D Indoor Scene Reconstruction from Spherical Images</em> 
+	                        	<a href="https://lume.ufrgs.br/bitstream/handle/10183/202142/001105403.pdf?sequence=1&isAllowed=y" target="_blank" class="badge badge-danger">PDF</a>
+	                            <a href="public/bibtex/silveiraphd2019.bib" target="_blank" class="badge badge-dark">BibTeX</a>
+	                        </p>
+	                     </dd>
+	                     <dt class="col-sm-3">Advisor:</dt>
+	                     <dd class="col-sm-9">
+	                     	<a href="http://lattes.cnpq.br/1538338871689655" target="_blank">Cláudio Rosito Jung</a>
+	                     </dd>
+	                     <dt class="col-sm-3">Final average grade:</dt>
+	                     <dd class="col-sm-9">"A"</dd>
+	                  </dl>
+
+	                  <h5>Master in Computer Science</h5>
+	                  <dl class="row">
+	                     <dt class="col-sm-3">Period:</dt>
+	                     <dd class="col-sm-9">2014 - 2016</dd>
+	                     <dt class="col-sm-3">University:</dt>
+	                     <dd class="col-sm-9">
+	                        <a target="_blank" href="http://www.ufsm.br">Federal University of Santa Maria</a>
+	                     </dd>
+	                     <dt class="col-sm-3">Thesis:</dt>
+	                     <dd class="col-sm-9">
+	                        <p class="text-justify">
+	                        	<em> Sleep Stages Classification Through Application of the Discrete Wavelet Transform on a Single Electroencephalogram Channel </em>
+	                        	<a href="https://repositorio.ufsm.br/bitstream/handle/1/15433/DIS_PPGCC_2016_SILVEIRA_THIAGO.pdf?sequence=1&isAllowed=y" target="_blank" class="badge badge-danger">PDF</a>
+	                        	<a href="public/bibtex/silveiramt2016.bib" target="_blank" class="badge badge-dark">BibTeX</a>
+	                        </p>
+	                     </dd>
+	                     <dt class="col-sm-3">Advisor:</dt>
+	                     <dd class="col-sm-9">
+	                     	<a href="http://lattes.cnpq.br/1143985671114403" target="_blank">Alice de Jesus Kozakevicius</a>
+	                     </dd>
+	                     <dt class="col-sm-3">Coadvisor:</dt>
+	                     <dd class="col-sm-9">
+	                     	<a href="http://lattes.cnpq.br/1751666562438251" target="_blank">Cesar Ramos Rodrigues</a>
+	                     </dd>
+	                     <dt class="col-sm-3">Final average grade:</dt>
+	                     <dd class="col-sm-9">"A"</dd>
+	                  </dl>
+
+	                  <h5>Bachelor in Information Systems</h5>
+	                  <dl class="row">
+	                     <dt class="col-sm-3">Period:</dt>
+	                     <dd class="col-sm-9">2014 - 2015</dd>
+	                     <dt class="col-sm-3">University:</dt>
+	                     <dd class="col-sm-9">
+	                        <a target="_blank" href="http://www.ufsm.br">Federal University of Santa Maria</a>
+	                     </dd>
+	                     <dt class="col-sm-3">Thesis:</dt>
+	                     <dd class="col-sm-9">
+	                        <p  class="text-justify"> 
+	                        	<em>Development and Implementation of a System for Recognition of Characteristic X-Ray Spectra of Minerals </em>
+	                        	<a href="public/ISGraduationWork.pdf" target="_blank" class="badge badge-danger">PDF</a>
+	                            <a href="public/bibtex/silveiratccsi2015.bib" target="_blank" class="badge badge-dark">BibTeX</a>
+	                        </p>
+	                     </dd>
+	                     <dt class="col-sm-3">Advisor:</dt>
+	                     <dd class="col-sm-9">
+	                     	<a href="http://lattes.cnpq.br/6135151156109356" target="_blank">José Antônio Trindade Borges da Costa</a>
+	                     </dd>
+	                     <dt class="col-sm-3">Final average grade:</dt>
+	                     <dd class="col-sm-9">8.76</dd>
+	                  </dl>
+
+	                  <h5>Bachelor in Computer Science</h5>
+	                  <dl class="row">
+	                     <dt class="col-sm-3">Period:</dt>
+	                     <dd class="col-sm-9">2010 - 2013</dd>
+	                     <dt class="col-sm-3">University:</dt>
+	                     <dd class="col-sm-9">
+	                        <a target="_blank" href="http://www.ufsm.br">Federal University of Santa Maria</a>
+	                     </dd>
+	                     <dt class="col-sm-3">Thesis:</dt>
+	                     <dd class="col-sm-9">
+	                        <p  class="text-justify">
+	                        	<em>16-point DCT Approximations with Low Arithmetic Complexity for Image Compression </em> 
+	                        	<a href="public/CSGraduationWork.pdf" target="_blank" class="badge badge-danger">PDF</a>
+	                            <a href="public/bibtex/silveiratcccc2013.bib" target="_blank" class="badge badge-dark">BibTeX</a>
+	                        </p>
+	                     </dd>
+	                     <dt class="col-sm-3">Advisor:</dt>
+	                     <dd class="col-sm-9">
+	                     	<a href="http://lattes.cnpq.br/1143985671114403" target="_blank">Alice de Jesus Kozakevicius</a>
+	                     </dd>
+	                     <dt class="col-sm-3">Coadvisor:</dt>
+	                     <dd class="col-sm-9">
+	                     	<a href="http://lattes.cnpq.br/9904863693302949" target="_blank">Fábio Mariano Bayer</a>
+	                     </dd>
+	                     <dt class="col-sm-3">Final average grade:</dt>
+	                     <dd class="col-sm-9">8.64</dd>
+	                  </dl>
+	               </div>
+	            </div>
+	         </div>
+	      </section>
+	      <section id="teaching" class="bg-white">
+	         <div class="container">
+	            <div class="row">
+	               <div class="col-lg-8 mx-auto">
+	                  
+	                  <h3>Teaching</h3>
+
+			  <h5>  <a target="_blank" href="http://www.ufrgs.br">Federal University of Rio Grande do Sul</a> </h5>
+	                  <ul>
+	                     <li>
+	                        Assistant Professor (2020 - current)
+	                        <ul>
+				   <li> Introduction to Programming (x2) </li>
+	                           <li> Object-oriented Programming (x1) </li>
+	                        </ul>
+	                     </li>
+	                     <li>
+	                        Temporary Lecturer (2019 - 2020)
+	                        <ul>
+	                           <li> Introduction to Programming (x6) </li>
+	                        </ul>
+	                     </li>
+	                  </ul>
+
+	                  <h5> <a target="_blank" href="https://www.furg.br/"> Federal University of Rio Grande</a> </h5>
+	                  <ul>
+	                     <li>
+	                        Assistant Professor (2020 - 2020)
+	                        <ul>
+	                           <li> Discrete Mathematics (x2) </li>
+	                           <li> Algorithms and Data Structures I (x2) </li>
+	                        </ul>
+	                     </li>
+	                  </ul>
+	                  
+	                  <h5>  <a target="_blank" href="http://ifsul.edu.br/">Sul-rio-grandense Federal Institute of Education, Science and Technology</a> </h5>
+	                  <ul>
+	                     <li>
+	                        Assistant Professor (2020 - 2020)
+	                        <ul>
+	                           <li> Web Pages Construction (x2) </li>
+	                           <li> Web Pages Construction I (x2) </li>
+	                           <li> Web Programming Languages I (x1)</li>
+	                           <li> Parallel and Distributed Architectures (x1) </li>
+	                        </ul>
+	                     </li>
+	                  </ul>
+	                  	               
+	               </div>
+	            </div>
+	         </div>
+	      </section>
+
+	      <section id="awards" class="bg-white">
+	         <div class="container">
+	            <div class="row">
+	               <div class="col-lg-8 mx-auto">
+	                  
+	                  <h3>Awards</h3>
+
+	                  <ul>
+	                     <li>
+	                        <p class="text-justify"> <i class="fas fa-award" style="color:silver"></i> Honorable Mention Award - Ph.D. Thesis Category,  Workshop of Theses and Dissertations of the Conference on Graphics, Patterns and Images (SIBGRAPI), <span class="mark">2020</span>.</p>
+	                     </li>
+	                     <li>
+	                     	<p class="text-justify"> <i class="fas fa-award" style="color:gold"></i> Best Master Thesis Award "Odelar Leite Linhares", Brazilian Society of Computational and Applied Mathematics (SBMAC), 2016.</p>
+	                     </li>
+	                     <li>
+	                     	<p class="text-justify"> <i class="fas fa-award" style="color:gold"></i> Featured Student Award in Computer Science from the Federal University of Santa Maria, Brazilian Computer Society (SBC), 2013.</p>
+	                     </li>
+	                  </ul>
+	                  	               
+	               </div>
+	            </div>
+	         </div>
+	      </section>
+
+	      <section id="publications" class="bg-white">
+	         <div class="container">
+	            <div class="row">
+	               <div class="col-lg-8 mx-auto">
+
+	                  <h3>Publications</h3>
+
+	                  <h5>Journal papers</h5>
+	                  <ol>
+	                     <li>
+	                        <p class="text-justify">
+	                        	<a href="http://lattes.cnpq.br/8050559582789892" target="_blank">Canterle, D. R.</a>,
+	                        	<b>Silveira, T. L. T.</b>, 
+	                        	<a href="http://lattes.cnpq.br/9904863693302949" target="_blank">Bayer, F. M.</a>
+	                        	and 
+	                        	<a href="http://lattes.cnpq.br/7413544381333504" target="_blank">Cintra, R. J.</a>;
+	                        	<em>A Multiparametric Class of Low-complexity Transforms for Image and Video Coding</em>;
+	                        	Signal Processing; 
+	                        	Elsevier; 
+	                        	volume 176; 
+	                        	number 107685; 
+	                        	<span class="mark">2020</span>. 
+	                        	<a href="http://arxiv.org/abs/2006.11418" target="_blank" class="badge badge-success">arXiv</a>
+	                            <a href="https://doi.org/10.1016/j.sigpro.2020.107685" target="_blank" class="badge badge-primary">DOI</a>  
+	                           	<a href="public/bibtex/canterlesigpro2020.bib" target="_blank" class="badge badge-dark">BibTeX</a>
+	                        </p>
+	                     </li>
+	                     <li>
+	                        <p class="text-justify">
+	                        	<a href="http://lattes.cnpq.br/2386233984679332" target="_blank">Oliveira, R. S.</a>,
+	                        	<a href="http://lattes.cnpq.br/7413544381333504" target="_blank">Cintra, R. J.</a>,
+	                        	<a href="http://lattes.cnpq.br/9904863693302949" target="_blank">Bayer, F. M.</a>,
+	                        	<b>Silveira, T. L. T.</b>, 
+	                        	<a href="http://lattes.cnpq.br/4052326400681023" target="_blank"> Leite, A.</a>
+	                        	and 
+	                        	Madanayake, A.; 
+	                        	<em>Low-complexity 8-point DCT approximation based on angle similarity for image and video coding</em>; 
+	                        	Multidimensional Systems and Signal Processing; 
+	                        	Springer; 
+	                        	volume 30; 
+	                        	issue 3; 
+	                        	p. 1363-1394; 
+	                        	2019. 
+	                        	<a href="http://arxiv.org/abs/1808.02950" target="_blank" class="badge badge-success">arXiv</a> 
+	                        	<a href="http://dx.DOI.org/10.1007/s11045-018-0601-5" target="_blank" class="badge badge-primary">DOI</a>
+	                           <a href="public/bibtex/oliveiramssp2018.bib" target="_blank" class="badge badge-dark">BibTeX</a>
+	                        </p>
+	                     </li>
+	                     <li>
+	                        <p class="text-justify">
+	                           <a href="http://lattes.cnpq.br/4694924603703490" target="_blank">Coelho, D. F. G.</a>,
+	                           <a href="http://lattes.cnpq.br/7413544381333504" target="_blank">Cintra, R. J.</a>, 
+	                           <a href="http://lattes.cnpq.br/9904863693302949" target="_blank">Bayer, F. M.</a>, 
+	                           Kulasekera, S.,
+	                           Madanayake, A.,
+	                           <a href="http://lattes.cnpq.br/2015372032188299" target="_blank">Oliveira, P. A. M.</a>,
+	                           <b>Silveira, T. L. T.</b>,
+	                           <a href="http://lattes.cnpq.br/2386233984679332" target="_blank">Oliveira, R. S.</a>
+	                           and
+	                           Dimitrov, V.; 
+	                           <em>Low-complexity Loeffler DCT Approximations for Image and Video Coding</em>;
+	                           Journal of Low Power Electronics and Applications;
+	                           MDPI; 
+	                           volume 8; 
+	                           issue 4; 
+	                           number 46; 
+	                           2018. 
+	                           <a href="http://dx.DOI.org/10.3390/jlpea8040046" target="_blank" class="badge badge-primary">DOI</a>
+		                       <a href="public/bibtex/diegojlpea2018.bib" target="_blank" class="badge badge-dark">BibTeX</a>
+	                        </p>
+	                     </li>
+	                     <li>
+	                        <p class="text-justify">
+	                        	<a href="http://lattes.cnpq.br/4950413660315850" target="_blank">Braun, E. T.</a>,
+	                        	<b>Silveira, T. L. T.</b>,
+	                        	<a href="http://lattes.cnpq.br/1143985671114403" target="_blank">Kozakevicius, A. J.</a>,
+	                        	<a href="http://lattes.cnpq.br/1751666562438251" target="_blank">Rodrigues, C. R.</a>
+	                        	and
+	                        	<a href="http://lattes.cnpq.br/9054887406340022" target="_blank">Baratto, G.</a>; 
+	                        	<em>Sleep stages classification using spectral based statistical moments as features</em>; 
+	                        	Revista de Informática Teórica e Aplicada;
+	                        	UFRGS; 
+	                        	volume 25; 
+	                        	issue 1; 
+	                        	p. 11-22; 
+	                        	2018. 
+	                        	<a href="http://dx.DOI.org/10.22456/2175-2745.74030" target="_blank" class="badge badge-primary">DOI</a>
+	                            <a href="public/bibtex/braunrita2018.bib" target="_blank" class="badge badge-dark">BibTeX</a>
+	                        </p>
+	                     </li>
+	                     <li>
+	                        <p class="text-justify">
+	                        	<a href="http://lattes.cnpq.br/4108250414004838" target="_blank">Tablada, C. J.</a>,
+	                        	<b>Silveira, T. L. T.</b>,
+	                        	<a href="http://lattes.cnpq.br/7413544381333504" target="_blank">Cintra, R. J.</a>
+	                        	and
+	                        	<a href="http://lattes.cnpq.br/9904863693302949" target="_blank">Bayer, F. M.</a>;
+	                        	<em>DCT approximations based on Chen's factorization</em>;
+	                        	Signal Processing: Image Communication; 
+	                        	Elsevier; 
+	                        	volume 58; 
+	                        	p. 14-23; 
+	                        	2017. 
+	                        	<a href="http://dx.DOI.org/10.1016/j.image.2017.06.014" target="_blank" class="badge badge-primary">DOI</a>
+	                            <a href="public/bibtex/tabladaspic2017.bib" target="_blank" class="badge badge-dark">BibTeX</a>
+	                        </p>
+	                     </li>
+	                     <li>
+	                        <p class="text-justify">
+	                        	<b>Silveira, T. L. T.</b>,
+	                        	<a href="http://lattes.cnpq.br/2386233984679332" target="_blank">Oliveira, R. S.</a>,
+	                        	<a href="http://lattes.cnpq.br/9904863693302949" target="_blank">Bayer, F. M.</a>,
+	                        	<a href="http://lattes.cnpq.br/7413544381333504" target="_blank">Cintra, R. J.</a>
+	                        	and
+	                        	Madanayake, A.;
+	                        	<em>Multiplierless 16-point DCT approximation for low-complexity image and video coding</em>;
+	                        	Signal, Image and Video Processing; 
+	                        	Springer; 
+	                        	volume 11; 
+	                        	issue 2; 
+	                        	p. 227-233; 
+	                        	2017. 
+	                        	<a href="http://arxiv.org/abs/1606.07414" target="_blank" class="badge badge-success">arXiv</a>
+	                            <a href="http://dx.DOI.org/10.1007/s11760-016-0923-4" target="_blank" class="badge badge-primary">DOI</a>
+	                           	<a href="public/bibtex/silveirasivip2016.bib" target="_blank" class="badge badge-dark">BibTeX</a>
+	                        </p>
+	                     </li>
+	                     <li>
+	                        <p class="text-justify">
+	                        	<b>Silveira, T. L. T.</b>, 
+	                        	<a href="http://lattes.cnpq.br/1143985671114403" target="_blank">Kozakevicius, A. J.</a>
+	                        	and 
+	                        	<a href="http://lattes.cnpq.br/1751666562438251" target="_blank">Rodrigues, C. R.</a>;
+	                        	<em>Single-channel EEG sleep stage classification based on a streamlined set of statistical features in wavelet domain</em>; 
+	                        	Medical &amp; Biological Engineering &amp; Computing;
+	                        	Springer; 
+	                        	volume 55; 
+	                        	issue 2; 
+	                        	p. 343-352; 
+	                        	2017. 
+	                        	<a href="http://dx.DOI.org/10.1007/s11517-016-1519-4" target="_blank" class="badge badge-primary">DOI</a>
+	                           <a href="public/bibtex/silveirambec2016.bib" target="_blank" class="badge badge-dark">BibTeX</a>
+	                        </p>
+	                     </li>
+	                     <li>
+	                        <p class="text-justify">
+	                        	<b>Silveira, T. L. T.</b>,
+	                        	<a href="http://lattes.cnpq.br/1143985671114403" target="_blank">Kozakevicius, A. J.</a>
+	                        	and
+	                        	<a href="http://lattes.cnpq.br/1751666562438251" target="_blank">Rodrigues, C. R.</a>; 
+	                        	<em>Automated drowsiness detection through wavelet packet analysis of a single EEG channel</em>; 
+	                        	Expert Systems with Applications;
+	                        	Elsevier; 
+	                        	volume 55; 
+	                        	p. 559-565; 
+	                        	2016. 
+	                        	<a href="http://dx.DOI.org/10.1016/j.eswa.2016.02.041" target="_blank" class="badge badge-primary">DOI</a>
+	                           <a href="public/bibtex/silveiraeswa2016.bib" target="_blank" class="badge badge-dark">BibTeX</a>
+	                        </p>
+	                     </li>
+	                     <li>
+	                        <p class="text-justify">
+	                        	<b>Silveira, T. L. T.</b>,
+	                        	<a href="http://lattes.cnpq.br/9904863693302949" target="_blank">Bayer, F. M.</a>, 
+	                        	<a href="http://lattes.cnpq.br/7413544381333504" target="_blank">Cintra, R. J.</a>, 
+	                        	Kulasekera, S., 
+	                        	Madanayake, A. 
+	                        	and
+	                           	<a href="http://lattes.cnpq.br/1143985671114403" target="_blank">Kozakevicius, A. J.</a>; 
+	                           	<em>An orthogonal 16-point approximate DCT for image and video compression</em>; 
+	                           	Multidimensional Systems and Signal Processing; 
+	                           	Springer; volume 27; 
+	                           	issue 1; 
+	                           	p. 87-104; 
+	                           	2016. 
+	                           	<a href="http://arxiv.org/abs/1606.05562" target="_blank" class="badge badge-success">arXiv</a> 
+	                           <a href="http://dx.DOI.org/10.1007/s11045-014-0291-6" target="_blank" class="badge badge-primary">DOI</a> 
+	                           <a href="public/bibtex/silveiramssp2014.bib" target="_blank" class="badge badge-dark">BibTeX</a>
+	                        </p>
+	                     </li>
+	                  </ol>
+
+	                  <h5>Books</h5>
+	                  
+	                  <ol>
+	                     <li>
+	                        <p class="text-justify">
+	                        	<b>Silveira, T. L. T.</b>
+	                        	and 
+	                        	<a href="http://lattes.cnpq.br/1143985671114403" target="_blank">Kozakevicius, A. J.</a>;
+	                        	<em>Transformada Wavelet de Haar: Conceitos, formulações e aplicações</em>; 
+	                        	Colóquios de Matemática das Regiões - Região Sul; 
+	                        	edição 1; 
+	                        	Sociedade Brasileira de Matemática; 
+	                        	2016. 
+	                        	<a href="https://www.sbm.org.br/wp-content/uploads/2016/06/transformada-wavelet-de-haar_ebook.pdf" target="_blank" class="badge badge-danger">PDF</a>
+	                           <a href="public/bibtex/silveiracmrs2016.bib" target="_blank" class="badge badge-dark">BibTeX</a>
+	                        </p>
+	                     </li>
+	                  </ol>
+
+	                  <h5>Book chapters</h5>
+	                  
+	                  <ol>
+	                     <li>
+	                        <p class="text-justify">
+	                           <a href="http://lattes.cnpq.br/4694924603703490" target="_blank">Coelho, D. F. G.</a>,
+	                           <a href="http://lattes.cnpq.br/4043274857891989" target="_blank">Coutinho, V. A.</a>,
+	                           <b>Silveira, T. L. T.</b>,
+	                           <a href="http://lattes.cnpq.br/7413544381333504" target="_blank">Cintra, R. J.</a>, 
+	                           <a href="http://lattes.cnpq.br/9904863693302949" target="_blank">Bayer, F. M.</a>, 
+	                           Madanayake, A.
+	                           and 
+	                           Dimitrov V. S.; 
+	                           <em>Discrete Transform Approximations for Video Coding</em>; 
+	                           VLSI Architectures for Future Video Coding; 
+	                           edition 1; 
+	                           Institution of Engineering and Technology; 
+	                           p. 257-297; 
+	                           2019. 
+	                           <a href="https://doi.org/10.1049/PBCS053E_ch8" target="_blank" class="badge badge-primary">DOI</a> 
+	                           <a href="public/bibtex/coelhoiet2019.bib" target="_blank" class="badge badge-dark">BibTeX</a>
+	                        </p>
+	                     </li>
+	                     <li>
+	                        <p class="text-justify">
+	                        	<a href="http://lattes.cnpq.br/1611789402968312" target="_blank">Pasin, M.</a> 
+	                        	and 
+	                        	<b>Silveira, T. L. T.</b>; 
+	                        	<em>Improving Public Transport Management: A Simulation Based on the Context of Software Multi-agents</em>;
+	                        	Advances in Intelligent Systems and Computing; 
+	                        	edition 1; 
+	                        	Springer; 
+	                        	p. 323-329; 
+	                        	2013. 
+	                        	<a href="http://dx.DOI.org/10.1007/978-3-642-36981-0_31" target="_blank" class="badge badge-primary">DOI</a>
+	                           <a href="public/bibtex/pasinwcist2013.bib" target="_blank" class="badge badge-dark">BibTeX</a>
+	                        </p>
+	                     </li>
+	                  </ol>
+
+	                  <h5>Conference papers</h5>
+	                  
+	                  <ol>
+	                     <li>
+	                        <p class="text-justify">
+	                        	<b>Silveira, T. L. T.</b>
+	                        	 and
+	                        	 <a href="http://lattes.cnpq.br/1538338871689655" target="_blank">Jung, C. R.</a>; 
+	                        	 <em>Dense 3D Indoor Scene Reconstruction from Spherical Images</em>; 
+	                        	 Extended Proceedings of the Conference on Graphics, Patterns and Images (SIBGRAPI/WTD); 
+	                        	 p. 8-14;
+	                        	 <span class="mark">2020</span>. 
+	                        	 <a href="https://sol.sbc.org.br/index.php/sibgrapi_estendido/article/view/12977/12831" target="_blank"  class="badge badge-danger">PDF</a>
+	                        	 <a href="https://doi.org/10.5753/sibgrapi.est.2020.12977" target="_blank"  class="badge badge-primary">DOI</a> 
+	                                 <a href="public/bibtex/silveirasibgrapi2020.bib" target="_blank" class="badge badge-dark">BibTeX</a>
+	                        </p>
+	                     </li>
+                             <li>
+	                        <p class="text-justify">
+	                           <a href="http://lattes.cnpq.br/1321601407803743" target="_blank">Avelar, P. H. C.</a>,
+	                           <a href="http://lattes.cnpq.br/1698030266736937" target="_blank">Tavares, A. R.</a>,
+	                           <b>Silveira, T. L. T.</b>,
+	                           <a href="http://lattes.cnpq.br/1538338871689655" target="_blank">Jung, C. R.</a>
+	                           and 
+	                           <a href="http://lattes.cnpq.br/1240066145518940" target="_blank">Lamb, L. C.</a>;
+	                           <em>Superpixel Image Classification with Graph Attention Networks</em>; 
+	                           Proceedings of the Conference on Graphics, Patterns and Images (SIBGRAPI); 
+	                       	   p. 203-209; 
+	                           <span class="mark">2020</span>. 
+				   <a href="https://arxiv.org/pdf/2002.05544" target="_blank" class="badge badge-success">arXiv</a>
+				   <a href="http://sibgrapi.sid.inpe.br/col/sid.inpe.br/sibgrapi/2020/09.30.02.48/doc/PID6630943.pdf" target="_blank"  class="badge badge-danger">PDF</a>
+				   <a href="https://doi.org/10.1109/SIBGRAPI51738.2020.00035" target="_blank"  class="badge badge-primary">DOI</a>
+	                           <a href="public/bibtex/avelarsibgrapi2020.bib" target="_blank" class="badge badge-dark">BibTeX</a>
+	                        </p>
+	                     </li>
+	                     <li>
+	                        <p class="text-justify">
+	                        	<i class="fa fa-star" style="color:gold;"></i>
+					<b>Silveira, T. L. T.</b>
+	                        	and 
+	                        	<a href="http://lattes.cnpq.br/1538338871689655" target="_blank">Jung, C. R.</a>;
+	                        	<em>Perturbation Analysis of the 8-Point Algorithm: a Case Study for Wide FoV Cameras</em>; 
+	                        	Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR); 
+	                        	p. 11757-11766; 
+	                        	2019. 
+	                        	<a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/da_Silveira_Perturbation_Analysis_of_the_8-Point_Algorithm_A_Case_Study_for_CVPR_2019_paper.pdf" target="_blank" class="badge badge-danger">PDF</a> 
+	                        	<a href="https://doi.org/10.1109/CVPR.2019.01203" target="_blank" class="badge badge-primary">DOI</a>
+	                           <a href="public/bibtex/silveiracvpr2019.bib" target="_blank" class="badge badge-dark">BibTeX</a>
+	                        </p>
+	                     </li>
+	                     <li>
+	                        <p class="text-justify">
+	                        	<b>Silveira, T. L. T.</b>
+	                        	and 
+	                        	<a href="http://lattes.cnpq.br/1538338871689655" target="_blank">Jung, C. R.</a>;
+	                        	<em> Dense 3D Scene Reconstruction from Multiple Spherical Images for 3-DoF+ VR Applications</em>; 
+	                        	Proceedings of the IEEE Conference on Virtual Reality and 3D User Interfaces (VR); 
+	                        	p. 9-18; 
+	                        	2019. 
+	                        	<a href="http://dx.DOI.org/10.1109/VR.2019.8798281" target="_blank" class="badge badge-primary">DOI</a> 
+	                        	<a href="public/bibtex/silveiravr2019.bib" target="_blank" class="badge badge-dark">BibTeX</a>
+	                        </p>
+	                     </li>
+	                     <li>
+	                        <p class="text-justify">
+	                        	<a href="http://lattes.cnpq.br/8945917706870243" target="_blank">Oliveira, A. Q.</a>,
+	                        	<b>Silveira, T. L. T.</b>,
+	                        	<a href="http://lattes.cnpq.br/4093722871814514" target="_blank">Walter, M.</a>
+	                        	and 
+	                        	<a href="http://lattes.cnpq.br/1538338871689655" target="_blank">Jung, C. R.</a>;
+	                        	<em>On the Performance of DIBR Methods when Using Depth Maps from State-of-the-art Stereo Matching Algorithms</em>; 
+	                        	Proceedings of the IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP); 
+	                        	p. 2272-2276; 
+	                        	2019. 
+	                        	<a href="http://dx.DOI.org/10.1109/ICASSP.2019.8683879" target="_blank" class="badge badge-primary">DOI</a>
+	                            <a href="public/bibtex/oliveiraicassp2019.bib" target="_blank" class="badge badge-dark">BibTeX</a> 
+	                        </p>
+	                     </li>
+	                     <li>
+	                        <p class="text-justify">
+	                        	<b>Silveira, T. L. T.</b>,
+	                        	<a href="http://lattes.cnpq.br/6695114308426159" target="_blank">Dal'Aqua, L. P.</a> 
+	                        	and 
+	                        	<a href="http://lattes.cnpq.br/1538338871689655" target="_blank">Jung, C. R.</a>; 
+	                        	<em>Indoor Depth Estimation from Single Spherical Images</em>; 
+	                        	Proceedings of the IEEE International Conference on Image Processing (ICIP); 
+	                        	p. 2935-2939; 
+	                        	2018. 
+	                        	<a href="http://dx.DOI.org/10.1109/ICIP.2018.8451769" target="_blank" class="badge badge-primary">DOI</a> 
+	                        	<a href="public/bibtex/silveiraicip2018.bib" target="_blank" class="badge badge-dark">BibTeX</a>
+	                        </p>
+	                     </li>
+	                     <li>
+	                        <p class="text-justify">
+	                        	<b>Silveira, T. L. T.</b>
+	                        	 and
+	                        	 <a href="http://lattes.cnpq.br/1538338871689655" target="_blank">Jung, C. R.</a>; 
+	                        	 <em>Evaluation of Keypoint Extraction and Matching for Pose Estimation Using Pairs of Spherical Images</em>; 
+	                        	 Proceedings of the Conference on Graphics, Patterns and Images (SIBGRAPI); 
+	                        	 p. 374-381; 
+	                        	 2017. 
+	                        	 <a href="http://sibgrapi.sid.inpe.br/archive.cgi/sid.inpe.br/sibgrapi/2017/08.16.20.19" target="_blank"  class="badge badge-danger">PDF</a>
+	                        	 <a href="http://dx.DOI.org/10.1109/SIBGRAPI.2017.56" target="_blank"  class="badge badge-primary">DOI</a> 
+	                             <a href="public/bibtex/silveirasibgrapi2017.bib" target="_blank" class="badge badge-dark">BibTeX</a>
+	                        </p>
+	                     </li>
+	                     <li>
+	                        <p class="text-justify">
+	                        	<b>Silveira, T. L. T.</b>,
+	                        	<a href="http://lattes.cnpq.br/1143985671114403" target="_blank">Kozakevicius, A. J.</a> 
+	                        	and 
+	                        	<a href="http://lattes.cnpq.br/1751666562438251" target="_blank">Rodrigues, C. R.</a>; 
+	                        	<em> Classificação de estágios de sono através da aplicação de DWT sobre um único canal de EEG</em>; 
+	                        	Proceeding Series of the Brazilian Society of Applied and Computational Mathematics; 
+	                        	volume 5; 
+	                        	issue 1; 
+	                        	p. 1-7; 
+	                        	2016. 
+	                        	<a href="http://dx.DOI.org/10.5540/03.2017.005.01.0574" target="_blank" class="badge badge-primary">DOI</a>
+	                            <a href="public/bibtex/silveiracnmac2016.bib" target="_blank" class="badge badge-dark">BibTeX</a>
+	                        </p>
+	                     </li>
+	                     <li>
+	                        <p class="text-justify">
+	                        	<b>Silveira, T. L. T.</b>,
+	                        	<a href="http://lattes.cnpq.br/1611789402968312" target="_blank">Pasin, M.</a> 
+	                        	and 
+	                        	<a href="http://lattes.cnpq.br/8369217264362638" target="_blank">Lima, J. C. D.</a>; 
+	                        	<em>Experimental Evaluation of Intersection Control Policies: a Simulation Based on Ubiquitous Computing and VANETs</em>; 
+	                        	Proceedings of XL Conferencia Latinoamericana en Informática (CLEI); 
+	                        	2014. 
+	                        	<a href="http://dx.DOI.org/10.1109/CLEI.2014.6965162" target="_blank" class="badge badge-primary">DOI</a>
+	                            <a href="public/bibtex/silveiraclei2014.bib" target="_blank" class="badge badge-dark">BibTeX</a>
+	                        </p>
+	                     </li>
+	                     <li>
+	                        <p class="text-justify">
+	                        	<b>Silveira, T. L. T.</b>
+	                        	and 
+	                        	<a href="http://lattes.cnpq.br/1611789402968312" target="_blank">Pasin, M.</a>; 
+	                        	<em>Provimento de Informações sobre Transporte Público Urbano para Empresas Concessionárias: Simulação e Avaliação Apoiada por um Sistema Multi-agentes</em>; 
+	                        	Anais do IX Simpósio Brasileiro de Sistemas de Informação (SBSI); 
+	                        	volume 1; 
+	                        	p. 565-576; 
+	                        	2013. 
+	                        	<a href="public/Silveira, TLT and Pasin M - SBSI2013.pdf" target="_blank" class="badge badge-danger">PDF</a>
+	                            <a href="public/bibtex/silveirasbsi2013.bib" target="_blank" class="badge badge-dark">BibTeX</a>
+	                        </p>
+	                     </li>
+	                     <li>
+	                        <p class="text-justify">
+	                        	<b>Silveira, T. L. T.</b>
+	                        	and 
+	                        	<a href="http://lattes.cnpq.br/1611789402968312" target="_blank">Pasin, M.</a>;
+	                        	<em>Aplicação de Algoritmos de Escalonamento de Processos para Gerenciamento de Interseções em VANETs</em>; 
+	                        	Anais da 11ª Escola Regional de Redes de Computadores (ERRC); 
+	                        	volume 1; 
+	                        	p. 39-42; 
+	                        	2013. 
+	                        	<a href="public/Silveira, TLT and Pasin Marcia - ERRC2013.pdf" target="_blank" class="badge badge-danger">PDF</a>
+	                            <a href="public/bibtex/silveiraerrc2013.bib" target="_blank" class="badge badge-dark">BibTeX</a>
+	                        </p>
+	                     </li>
+	                  </ol>
+
+	                  <h5>Conference short papers</h5>
+	                  
+	                  <ol>
+	                     <li>
+	                        <p class="text-justify">
+	                        	<b>Silveira, T. L. T.</b>, 
+	                        	<a href="http://lattes.cnpq.br/1143985671114403" target="_blank">Kozakevicius, A. J.</a> 
+	                        	and 
+	                        	<a href="http://lattes.cnpq.br/1751666562438251" target="_blank">Rodrigues, C. R.</a>; 
+	                        	<em>Awake/Sleep Scoring Through Wavelet Analysis Associated to Decision Tree Algorithms</em>; 
+	                        	Anais do 30º Simpósio Sul de Microeletrônica (SIM); 
+	                        	2015. 
+	                        	<a href="public/Silveira, TLT et al - SIM2015.pdf" target="_blank" class="badge badge-danger">PDF</a>
+	                            <a href="public/bibtex/silveirasim2015.bib" target="_blank" class="badge badge-dark">BibTeX</a>
+	                        </p>
+	                     </li>
+	                     <li>
+	                        <p class="text-justify">
+	                        	<b>Silveira, T. L. T.</b>, 
+	                        	<a href="http://lattes.cnpq.br/9904863693302949" target="_blank">Bayer, F. M.</a>, 
+	                        	<a href="http://lattes.cnpq.br/7413544381333504" target="_blank">Cintra, R. J. S.</a> 
+	                        	and 
+	                        	<a href="http://lattes.cnpq.br/1143985671114403" target="_blank">Kozakevicius, A. J.</a>; 
+	                        	<em>Algoritmos Rápidos para Cifragem de Imagens Utilizando Aproximações da DCT de Comprimento 8</em>; 
+	                        	Proceeding Series of the Brazilian Society of Applied and Computational Mathematics; 
+	                        	volume 2; 
+	                        	issue 1; 
+	                        	2014. 
+	                        	<a href="http://dx.DOI.org/10.5540/03.2014.002.01.0123" target="_blank" class="badge badge-primary">DOI</a>
+	                            <a href="public/bibtex/silveiracmac2014.bib" target="_blank" class="badge badge-dark">BibTeX</a>
+	                        </p>
+	                     </li>
+	                     <li>
+	                        <p class="text-justify">
+	                        	<b>Silveira, T. L. T.</b>, 
+	                        	<a href="http://lattes.cnpq.br/1751666562438251" target="_blank">Rodrigues, C. R.</a>
+	                        	and 
+	                        	<a href="http://lattes.cnpq.br/1143985671114403" target="_blank">Kozakevicius, A. J.</a>; 
+	                        	<em>Técnicas de Reamostragem de Sinais e seus Impactos no Processamento Digital nos Domínios do Tempo e da Frequência</em>; 
+	                        	Anais do Primer Encuentro de Jóvenes Investigadores en Matemática Aplicada de la Asociación de Universidades Grupo Montevideo (AUGM); 
+	                        	p. 39-40; 
+	                        	2014. 
+	                        	<a href="public/Silveira, TLT et al - PEEMA2014.pdf" target="_blank" class="badge badge-danger">PDF</a>
+	                            <a href="public/bibtex/silveirapejima2014.bib" target="_blank" class="badge badge-dark">BibTeX</a>
+	                        </p>
+	                     </li>
+	                     <li>
+	                        <p class="text-justify">
+	                        	<b>Silveira, T. L. T.</b> 
+	                        	and 
+	                        	<a href="http://lattes.cnpq.br/1611789402968312" target="_blank">Pasin, M.</a>; 
+	                        	<em>Aplicação de algoritmos de escalonamento de processos como proposta de solução para resolução de conflitos em cruzamentos de múltiplas vias de trânsito</em>; 
+	                        	Anais da 28ª Jornada Acadêmica Integrada da Universidade Federal de Santa Maria; 
+	                        	2013. 
+	                        	<a href="public/Silveira, TLT and Marcia - JAI2013.pdf" target="_blank" class="badge badge-danger">PDF</a>
+	                            <a href="public/bibtex/silveirajai2013.bib" target="_blank" class="badge badge-dark">BibTeX</a>
+	                        </p>
+	                     </li>
+	                     <li>
+	                        <p class="text-justify">
+	                        	<a href="http://lattes.cnpq.br/1443288110941682" target="_blank">Jacobi, O. F.</a>, 
+	                        	<b>Silveira, T. L. T.</b> 
+	                        	and 
+	                        	<a href="http://lattes.cnpq.br/9904863693302949" target="_blank">Bayer, F. M.</a>;
+	                        	<em>Avaliação do impacto da ordem da DCT em compressão de imagens do tipo JPEG</em>; 
+	                        	Anais da 28ª Jornada Acadêmica Integrada da Universidade Federal de Santa Maria; 
+	                        	2013. 
+	                        	<a href="public/Jacobi, OF et al - JAI2013.pdf" target="_blank" class="badge badge-danger">PDF</a>
+	                           <a href="public/bibtex/jacobijai2013.bib" target="_blank" class="badge badge-dark">BibTeX</a>
+	                        </p>
+	                     </li>
+	                     <li>
+	                        <p class="text-justify">
+	                        	<a href="http://lattes.cnpq.br/8519862628698750" target="_blank">Puhlmann, H. S. K.</a>,
+	                        	<b>Silveira, T. L. T.</b>, 
+	                        	<a href="http://lattes.cnpq.br/5982639356715841" target="_blank">Azevedo, B. R.</a> 
+	                        	and 
+	                        	<a href="http://lattes.cnpq.br/1670816922219129" target="_blank">Augustin, I.</a>; 
+	                        	<em>MedAlert</em>; 
+	                        	Anais da 26ª Jornada Acadêmica Integrada da Universidade Federal de Santa Maria; 
+	                        	2011. 
+	                        	<a href="public/Puhlmann, SKP et al - JAIa.pdf" target="_blank" class="badge badge-danger">PDF</a>
+	                            <a href="public/bibtex/puhlmannjai2011.bib" target="_blank" class="badge badge-dark">BibTeX</a>
+	                        </p>
+	                     </li>
+	                  </ol>
+
+	                  <h5>Regular and software patents</h5>
+	                  
+	                  <ol>
+	                     <li>
+	                        <p class="text-justify">
+	                        	<b>Silveira, T. L. T.</b> 
+	                        	and 
+	                        	<a href="http://lattes.cnpq.br/1538338871689655" target="_blank">Jung, C. R.</a>;
+	                        	<em>SNICS: um método para supersegmentação de imagens esféricas</em>; 
+	                        	Instituto Nacional da Propriedade Industrial (INPI); 
+	                        	BR512019002934-8; 
+	                        	2019. 
+	                        	<a href="public/bibtex/silveirasoftware2019b.bib" target="_blank" class="badge badge-dark">BibTeX</a>
+	                        </p>
+	                     </li>
+	                     <li>
+	                        <p class="text-justify">
+	                        	<b>Silveira, T. L. T.</b>
+	                        	and 
+	                        	<a href="http://lattes.cnpq.br/6135151156109356" target="_blank">Costa, J. A. T. B.</a>;
+	                        	<em>Método para Reconhecimento de Espectros de Raios X Característicos de Minerais</em>; 
+	                        	Instituto Nacional da Propriedade Industrial (INPI); 
+	                        	BR512019000482-5; 
+	                        	2019. 
+	                        	<a href="public/bibtex/silveirasoftware2019.bib" target="_blank" class="badge badge-dark">BibTeX</a>
+	                        </p>
+	                     </li>
+	                     <li>
+	                        <p class="text-justify">
+	                           <b>Silveira, T. L. T.</b>,
+	                           <a href="http://lattes.cnpq.br/9904863693302949" target="_blank">Bayer, F. M.</a> 
+	                           and
+	                           <a href="http://lattes.cnpq.br/7413544381333504" target="_blank">Cintra, R. J.</a>;
+	                           <em>Método para o Cômputo Aproximado da Transformada Discreta do Cosseno de Comprimento 16 com Baixo Custo Aritmético em Aplicações de Compressão de Imagem e Vídeo</em>; 
+	                           Instituto Nacional da Propriedade Industrial (INPI); 
+	                           BR1020150322720; 
+	                           2015. 
+	                           <a href="public/bibtex/silveirapatent2015.bib" target="_blank" class="badge badge-dark">BibTeX</a>
+	                        </p>
+	                     </li>
+	                  </ol>
+			  <!--
+	                  <h5>Tech reports</h5>
+	                  
+	                  <ol>
+	                     <li>
+	                        <p class="text-justify">
+	                           <a href="http://lattes.cnpq.br/1321601407803743" target="_blank">Avelar, P. H. C.</a>,
+	                           <a href="http://lattes.cnpq.br/1698030266736937" target="_blank">Tavares, A. R.</a>,
+	                           <b>Silveira, T. L. T.</b>,
+	                           <a href="http://lattes.cnpq.br/1538338871689655" target="_blank">Jung, C. R.</a>
+	                           and 
+	                           <a href="http://lattes.cnpq.br/1240066145518940" target="_blank">Lamb, L. C.</a>;
+	                           <em>Superpixel Image Classification with Graph Attention Networks</em>; 
+	                           arXiv; 
+	                           <span class="mark">2020</span>. 
+	                           <a href="https://arxiv.org/pdf/2002.05544" target="_blank" class="badge badge-success">arXiv</a>  
+	                           <a href="public/bibtex/avelararxiv2020.bib" target="_blank" class="badge badge-dark">BibTeX</a>
+	                        </p>
+	                     </li>
+	                  </ol>
+			  -->
+	               </div>
+	            </div>
+	         </div>
+	      </section>
+	      <section id="contact">
+	         <div class="container">
+	            <div class="row">
+	               <div class="col-lg-8 mx-auto">
+	                  <h3>Contact &amp; Social Media</h3>
+
+	                  	<div class="flex-container">
+						  <div class="flex-item">
+		                    <a href="mailto:drtltsilveira@gmail.com" target="_top">
+		                    	<i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
+		                    </a>
+						  </div>
+						  <div class="flex-item">
+		                    <a href="http://lattes.cnpq.br/3925632508523050" target="_blank">
+		                    	<i class="ai ai-lattes ai-2x"></i>
+		                    </a>
+						  </div>
+						  <div class="flex-item">
+		                    <a href="https://scholar.google.com.br/citations?hl=pt-BR&user=UXjBQjcAAAAJ" target="_blank">
+		                    	<i class="ai ai-google-scholar ai-2x"></i>
+		                    </a>
+		                  </div>
+						  <div class="flex-item">
+		                    <a href="https://orcid.org/0000-0001-6788-2667" target="_blank">
+		                    	<i class="ai ai-orcid ai-2x"></i>
+		                    </a>
+		                  </div>
+						  <div class="flex-item">
+		                    <a href="http://researchgate.net/profile/Thiago_Da_Silveira3" target="_blank">
+		                    	<i class="ai ai-researchgate ai-2x"></i>
+		                    </a>
+		                  </div>
+						  <div class="flex-item">
+		                    <a href="http://br.linkedin.com/in/thiagotrugillo/" target="_blank">
+		                    	<i class="fab fa-linkedin fa-2x"></i>
+		                    </a>
+		                  </div>
+						  <div class="flex-item">
+		                    <a href="https://twitter.com/tltsilveira" target="_blank">
+		                    	<i class="fab fa-twitter fa-2x"></i>
+		                    </a>
+		                  </div>
+						  <div class="flex-item">
+		                    <a href="https://www.facebook.com/tltsilveira" target="_blank">
+		                    	<i class="fab fa-facebook fa-2x"></i>
+		                    </a>
+	                      </div>
+					  </div>
+
+	               </div>
+	            </div>
+	         </div>
+	      </section>
+	      <!-- Footer -->
+	      <footer class="py-3 bg-white">
+	         <div class="container">
+	            <p class="m-0 text-center text-muted">Last updated on January, 27th 2021</p>
+	         </div>
+	         <!-- /.container -->
+	      </footer>
+	      <!-- Bootstrap core JavaScript -->
+	      <script src="resources/vendor/jquery/jquery.min.js"></script>
+	      <script src="resources/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	      <!-- Plugin JavaScript -->
+	      <script src="resources/vendor/jquery-easing/jquery.easing.min.js"></script>
+	      <!-- Custom JavaScript for this theme -->
+	      <script src="resources/js/scrolling-nav.js"></script>
+	   </body>
+	</html>
