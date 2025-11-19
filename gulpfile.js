@@ -16,7 +16,6 @@ function browserSync(done) {
   });
   done();
 }
-
 // BrowserSync reload
 function browserSyncReload(done) {
   browsersync.reload();
